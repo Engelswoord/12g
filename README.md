@@ -1,5 +1,12 @@
 # 12g
 
+Engelswoord version of Grrr's 12g.
+Bumped shelljs version to fix "Accessing non-existent property 'cd' of module exports inside circular dependency" issues.
+
+Original documentation below:
+
+---------
+
 [![Build Status](https://travis-ci.org/grrr-amsterdam/12g.svg)](https://travis-ci.org/grrr-amsterdam/12g)
 [![Greenkeeper badge](https://badges.greenkeeper.io/grrr-amsterdam/12g.svg)](https://greenkeeper.io/)
 
@@ -47,7 +54,7 @@ This will list the variables from the `.env` file on the target, without quotes 
 Target environment is probably `development`, `staging`, `production`, etcetera,
 depending on your setup.
 
-If the targeted environment is remote, an SSH connection will be attempted, 
+If the targeted environment is remote, an SSH connection will be attempted,
 if Capistrano configuration can be found.
 
 ##### Json
