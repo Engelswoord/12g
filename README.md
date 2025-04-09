@@ -3,6 +3,10 @@
 Engelswoord version of Grrr's 12g.
 Bumped shelljs version to fix "Accessing non-existent property 'cd' of module exports inside circular dependency" issues.
 
+Installation (not via NPM)
+`npm i -g https://github.com/Engelswoord/12g`
+
+
 Original documentation below:
 
 ---------
